@@ -191,7 +191,7 @@ require('lazy').setup({
     dependencies = { 'nvim-tree/nvim-web-devicons' },
     opts = {
       options = {
-        theme = 'horizon',
+        theme = 'iceberg_light',
       },
     },
   },
@@ -245,6 +245,8 @@ require('lazy').setup({
       'rcarriga/nvim-notify',
     },
   },
+
+  -- NOTE: NVIM-JAVA SETUP
   {
     'nvim-java/nvim-java',
     dependencies = {
